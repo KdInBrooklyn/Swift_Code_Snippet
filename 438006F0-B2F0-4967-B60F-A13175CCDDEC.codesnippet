@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    fileprivate lazy var &lt;#leftImag#&gt;: UIImageView = {
+        var imageView: UIImageView = UIImageView(frame: CGRect(x: &lt;#0.0#&gt;, y: &lt;#0.0#&gt;, width: &lt;#self.bannerWidth#&gt;, height: &lt;#100.0#&gt;))
+        
+        return imageView
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>438006F0-B2F0-4967-B60F-A13175CCDDEC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView lazy create</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

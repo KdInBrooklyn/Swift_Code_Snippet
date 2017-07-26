@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>view lazy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> &lt;#fileprivate#&gt; lazy var &lt;#viewName#&gt;: UIView = {
+        let view: UIView = UIView(frame: CGRect.zero)
+        view.backgroundColor = &lt;#UIColor.white#&gt;
+        view.layer.cornerRadius = &lt;#0.0#&gt;
+        view.layer.shadowOffset = &lt;#CGSize(width: 1.0, height: 1.0)#&gt;
+        view.layer.shadowColor = &lt;#UIColor.black.cgColor#&gt;
+        view.layer.shadowOpacity = &lt;#0.0#&gt;
+        return view
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C3D91921-A1A9-4261-8295-A30AFCF37180</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>private lazy view</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

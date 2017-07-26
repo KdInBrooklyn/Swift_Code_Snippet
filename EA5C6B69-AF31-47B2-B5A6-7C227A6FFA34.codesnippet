@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIButtonLazy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#fileprivate#&gt; lazy var &lt;#btnLogin#&gt;: UIButton = {
+        let button: UIButton = UIButton(frame: CGRect.zero)
+        button.backgroundColor = &lt;#UIColor.red#&gt;
+        button.setTitle("&lt;#登录#&gt;", for: .normal)
+        button.titleLabel?.font = &lt;#BIMFont.f14#&gt;
+        button.tag = &lt;#self.kViewTag + 2#&gt;
+        button.addTarget(self, action: #selector(&lt;#BIMLoginViewController.eventLoginButtonDidClick(_:)#&gt;), for: .touchUpInside)
+        return button
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EA5C6B69-AF31-47B2-B5A6-7C227A6FFA34</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>private lazy button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

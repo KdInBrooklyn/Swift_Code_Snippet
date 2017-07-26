@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UITextField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  &lt;#fileprivate#&gt; lazy var &lt;#textFieldName#&gt;: UITextField = {
+        let textField: UITextField = UITextField(frame: CGRect.zero)
+        textField.backgroundColor = .white
+        textField.placeholder = "&lt;##&gt;"
+        textField.textAlignment = .center
+        textField.clearButtonMode = .whileEditing
+        textField.delegate = self
+        return textField
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>19DEBE38-B3F7-4DC2-BFF1-BC0130A9667E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>private lazy textField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
